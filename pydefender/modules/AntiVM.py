@@ -25,48 +25,26 @@ class AntiVM(Module):
         self.event: Event = event
 
         self.VMWARE_MACS: List[str] = ["00:05:69", "00:0c:29", "00:1c:14", "00:50:56"]
-        # self.HWIDS: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/hwid_data.txt"
-        # ).text
-        # self.PC_NAMES: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_names_data.txt"
-        # ).text
-        # self.PC_USERNAMES: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_usernames_data.txt"
-        # ).text
-        # self.IPS: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/ip_data.txt"
-        # ).text
-        # self.MACS: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/mac_data.txt"
-        # ).text
-        # self.GPUS: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/gpu_data.txt"
-        # ).text
-        # self.PLATFORMS: List[str] = httpx.get(
-        #     "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_platform_data.txt"
-        # ).text
-
         self.HWIDS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/hwid_list.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/hwid_data.txt"
         ).text
         self.PC_NAMES: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/pc_name_list.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_names_data.txt"
         ).text
         self.PC_USERNAMES: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/pc_username_list.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_usernames_data.txt"
         ).text
         self.IPS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/ip_list.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/ip_data.txt"
         ).text
         self.MACS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/mac_list.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/mac_data.txt"
         ).text
         self.GPUS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/gpu_list.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/gpu_data.txt"
         ).text
         self.PLATFORMS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/xFGhoul/PythonProtector/dev/data/pc_platforms.txt"
+            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_platform_data.txt"
         ).text
 
     @property
