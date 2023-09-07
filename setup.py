@@ -13,8 +13,6 @@ from setuptools import setup
 
 with open("README.md", encoding="utf-8") as read:
     README = read.read()
-with open("HISTORY.md") as history_file:
-    HISTORY = history_file.read()
 
 setup(
     name="pydefender",
@@ -30,7 +28,7 @@ setup(
     url="https://github.com/apilol/PyDefender",
     author_email="email@kova.rip",
     long_description_content_type="text/markdown",
-    long_description=README + "\n\n" + HISTORY,
+    long_description=README,
     python_requires=">=3.11",
     keywords=[
         "protect", "protection",
