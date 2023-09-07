@@ -27,7 +27,7 @@ I found [Python Protector](https://github.com/xFGhoul/PythonProtector) a couple 
 
 Install via [PyPi](https://pypi.org/):
 ```
-py -3 -m pip install -U PyDefender
+py -3 -m pip install -U pythondefender
 ```
 
 ## Usage
