@@ -19,7 +19,7 @@ setup(
     version="1.0.0",
     description="A simple, easy-to-use Python file protector.",
     packages=[
-        "pydefender",
+        "pythondefender",
         "pydefender.utils",
         "pydefender.modules"
     ],
