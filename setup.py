@@ -49,7 +49,7 @@ setup(
         "Pillow",
         "observable",
         "cryptography",
-        "pydefender"
+        "pythondefender"
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
