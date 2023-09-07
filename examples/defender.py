@@ -1,7 +1,7 @@
 from pathlib import Path
 from threading import Thread
 
-from pydefender import PyDefender
+from pythondefender import PyDefender
 
 Defender = PyDefender(
     debug=True,
