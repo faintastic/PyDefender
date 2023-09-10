@@ -16,7 +16,7 @@ with open("README.md", encoding="utf-8") as read:
 
 setup(
     name="pythondefender",
-    version="1.0.1",
+    version="1.0.2",
     description="A simple, easy-to-use Python file protector.",
     packages=[
         "pydefender",
