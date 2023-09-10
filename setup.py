@@ -29,7 +29,6 @@ setup(
     author_email="email@kova.rip",
     long_description_content_type="text/markdown",
     long_description=README,
-    python_requires=">=3.11",
     keywords=[
         "protect", "protection",
         "defend", "defender",
