@@ -6,11 +6,12 @@ Made with program protection in mind.
 
 ## Acknowledgements
 
- - [Kova / api](https://kova.rip)
+ - [Kova / api](https://ihaveyour.pw/)
+ - [venqoi](https://venqoi.lol) fixed readme.md grammar hehe
  - [Python Protector](https://github.com/xFGhoul/PythonProtector)
 
 ## Story
-I found [Python Protector](https://github.com/xFGhoul/PythonProtector) a couple months ago and have been using it! But recently, I have been encountering issues, the github hasn't been updated since June 7th (As of September 6th), so I decided, lets use there base, fix the issues, and hopefully update it more in the future!
+I found [Python Protector](https://github.com/xFGhoul/PythonProtector) a couple months ago and have been using it! But recently, I have been encountering issues; the github hasn't been updated since June 7th (as of September 6th), so I decided to use their base, fix the issues, and hopefully update it more in the future!
 
 ## Features
 
