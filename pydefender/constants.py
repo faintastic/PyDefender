@@ -46,7 +46,7 @@ class EmbedCfg:
     COLOR: Final[str] = "564BDC"
     TITLE: Final[str] = f"PyDefender - V{DefenderInfo.VERSION}"
     VERSION: Final[str] = DefenderInfo.VERSION
-    ICON: Final[str] = "https://media.discordapp.net/attachments/1092082158723666071/1148913735382093864/23252456.png?width=375&height=375"
+    ICON: Final[str] = "https://ripkova.github.io/cdn/PyDefender.png"
 
 @final
 class Lists:
