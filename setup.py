@@ -24,9 +24,9 @@ setup(
         "pydefender.modules"
     ],
     license="MIT",
-    author="Kova / api",
-    url="https://github.com/apilol/PyDefender",
-    author_email="email@kova.rip",
+    author="Faint / Kova",
+    url="https://github.com/ripkova/PyDefender",
+    author_email="faintastic@pm.me",
     long_description_content_type="text/markdown",
     long_description=README,
     keywords=[
