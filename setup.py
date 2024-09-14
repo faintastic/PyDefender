@@ -25,7 +25,7 @@ setup(
     ],
     license="MIT",
     author="Faint / Kova",
-    url="https://github.com/ripkova/PyDefender",
+    url="https://github.com/faintastic/PyDefender",
     author_email="faintastic@pm.me",
     long_description_content_type="text/markdown",
     long_description=README,
