@@ -26,25 +26,25 @@ class AntiVM(Module):
 
         self.VMWARE_MACS: List[str] = ["00:05:69", "00:0c:29", "00:1c:14", "00:50:56"]
         self.HWIDS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/hwid_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/hwid_data.txt"
         ).text
         self.PC_NAMES: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_names_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/pc_names_data.txt"
         ).text
         self.PC_USERNAMES: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_usernames_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/pc_usernames_data.txt"
         ).text
         self.IPS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/ip_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/ip_data.txt"
         ).text
         self.MACS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/mac_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/mac_data.txt"
         ).text
         self.GPUS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/gpu_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/gpu_data.txt"
         ).text
         self.PLATFORMS: List[str] = httpx.get(
-            "https://raw.githubusercontent.com/apilol/PyDefender/dev/data/pc_platform_data.txt"
+            "https://raw.githubusercontent.com/faintastic/PyDefender/dev/data/pc_platform_data.txt"
         ).text
 
     @property
