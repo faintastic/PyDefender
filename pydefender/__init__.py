@@ -9,6 +9,6 @@
 Made with 💞 by kova / api
 - Made with program protection in mind.
 """
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 from .pydefender import PyDefender
 __all__ = ["PyDefender"]
